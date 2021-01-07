@@ -10,7 +10,7 @@ I'm alphaRomeo323,  the author of this blog.
 
 I'm writting on this site :
 - Games
-- Program cording
+- Programs
 - Music
 - Some Tips
 
