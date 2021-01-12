@@ -19,7 +19,9 @@
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
             <br>
-            <li><a href="https://creativecommons.org/licenses/by/4.0/""><image src="/images/cc-by.png" style="width : 100px;"/></a></li>
+            {%- if site.author -%}
+            <li><small>© 2020 {{ site.author | escape }}</small></li>
+            {%- endif -%}
         </ul>
       </div>
 

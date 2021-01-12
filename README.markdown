@@ -42,5 +42,4 @@ I'm Japanese, so my English isn't good. take it easy on me.
 <iframe src="https://discord.com/widget?id=488587795284230144&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
 ## Copyright
-[CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
-Auther: alphaRomeo323(α Romeo)
+© 2020 α Romeo
