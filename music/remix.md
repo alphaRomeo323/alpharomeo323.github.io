@@ -113,6 +113,29 @@ Release: Oct 25, 2019
   <a button class="dropbtn" href="/music/mp3/spear-of-justice.mp3" download="spear-of-justice.mp3">Download mp3</a>
 </div><br><br>
 
+### Rude Buster [Deltarune Chapter 1] Remix
+
+Release: Nov 22, 2019
+
+<audio src="/music/mp3/rude-buster.mp3" controls></audio><br>
+
+<div class="dropdown">
+  <a button class="dropbtn" href="/music/mp3/rude-buster.mp3" download="rude-buster.mp3">Download mp3</a>
+  <div class="dropdown-content" style="width: 170px;">
+    <a href="https://youtu.be/DhILoBOxg2k" target="_blank">Watch Youtube MV</a>
+  </div>
+</div><br><br>
+
+### You Can Always Come Home [Deltarune Chapter 1] Remix
+
+Release: Dec 16, 2019
+
+<audio src="/music/mp3/you-can-always-come-home.mp3" controls></audio><br>
+
+<div class="dropdown">
+  <a button class="dropbtn" href="/music/mp3/you-can-always-come-home.mp3" download="you-can-always-come-home.mp3">Download mp3</a>
+</div><br><br>
+
 ### Anticipation / Enemy Approaching [Undertale] Remix
 
 Release: Jan 13, 2020
@@ -159,6 +182,16 @@ Release: Mar 22, 2020
   </div>
 </div><br><br>
 
+### Field of Hopes and Dreams [Deltarune Chapter 1] Remix
+
+Release: Apr 14, 2020
+
+<audio src="/music/mp3/field-of-hopes-and-dreams.mp3" controls></audio><br>
+
+<div class="dropdown">
+  <a button class="dropbtn" href="/music/mp3/field-of-hopes-and-dreams.mp3" download="field-of-hopes-and-dreams.mp3">Download mp3</a>
+</div><br><br>
+
 ### His Theme [Undertale] Remix
 
 Release: May 20, 2020
@@ -192,15 +225,14 @@ Release: May 21, 2020
   <a button class="dropbtn" href="/music/mp3/sans.mp3" download="sans.mp3">Download mp3</a>
 </div><br><br>
 
-### Rude Buster [Deltarune Chapter 1] Remix
+### THE WORLD REVOLVING [Deltarune Chapter 1] Remix
 
-<audio src="/music/mp3/rude-buster.mp3" controls></audio><br>
+Release: Jun 23, 2020
+
+<audio src="/music/mp3/the-world-revolving.mp3" controls></audio><br>
 
 <div class="dropdown">
-  <a button class="dropbtn" href="/music/mp3/rude-buster.mp3" download="rude-buster.mp3">Download mp3</a>
-  <div class="dropdown-content" style="width: 170px;">
-    <a href="https://youtu.be/DhILoBOxg2k" target="_blank">Watch Youtube MV</a>
-  </div>
+  <a button class="dropbtn" href="/music/mp3/the-world-revolving.mp3" download="the-world-revolving.mp3">Download mp3</a>
 </div><br><br>
 
 ### Reanimation [Undeswap] Remix
@@ -258,3 +290,58 @@ Release Oct 17, 2020
     <a href="https://youtu.be/E-c-Gz8yc58" target="_blank">Watch Youtube MV</a>
   </div>
 </div><br><br>
+
+### Field of Hopes and Dreams [Deltarune Chapter 1] Remix V2
+
+Release Oct 17, 2020
+
+<audio src="/music/mp3/field-of-hopes-and-dreams-v2.mp3" controls></audio><br>
+
+<div class="dropdown">
+  <a button class="dropbtn" href="/music/flac/field-of-hopes-and-dreams-v2.flac" download="field-of-hopes-and-dreams-v2.flac">Download flac</a>
+  <div class="dropdown-content" style="width: 170px;">
+    <a href="/music/mp3/field-of-hopes-and-dreams-v2.mp3" download="field-of-hopes-and-dreams-v2.mp3">Download mp3</a>
+  </div>
+</div><br><br>
+
+### CORE [Undertale] Remix (2020 Repowered)
+
+Release Oct 31, 2020
+
+<audio src="/music/mp3/core-2020re.mp3" controls></audio><br>
+
+<div class="dropdown">
+  <a button class="dropbtn" href="/music/flac/core-2020re.flac" download="core-2020re.flac">Download flac</a>
+  <div class="dropdown-content" style="width: 170px;">
+    <a href="/music/mp3/core-2020re.mp3" download="core-2020re.mp3">Download mp3</a>
+  </div>
+</div><br><br>
+
+### 魔法少女達の百年祭 [東方紅魔郷] Remix
+
+Release Nov 22, 2020
+
+<audio src="/music/mp3/centennial-festival.mp3" controls></audio><br>
+
+<div class="dropdown">
+  <a button class="dropbtn" href="/music/flac/centennial-festival.flac" download="centennial-festival.flac">Download flac</a>
+  <div class="dropdown-content" style="width: 170px;">
+    <a href="/music/mp3/centennial-festival.mp3" download="centennial-festival.mp3">Download mp3</a>
+  </div>
+</div><br><br>
+
+### FLOWER [jubeat knit APPEND] Remix
+
+Release Dec 16, 2020
+
+<audio src="/music/mp3/flower.mp3" controls></audio><br>
+
+<div class="dropdown">
+  <a button class="dropbtn" href="/music/flac/flower.flac" download="flower.flac">Download flac</a>
+  <div class="dropdown-content" style="width: 170px;">
+    <a href="/music/mp3/flower.mp3" download="flower.mp3">Download mp3</a>
+  </div>
+</div><br><br>
+
+[Return Top](#)  
+[Back](../)

@@ -42,7 +42,7 @@ Artwork illust: 蓮菜
 <image src="/images/artwork/alphatale.png" style="width : 240px ;"/>
 Artwork illust: 蓮菜
 
-Those is arranges of Touhou Project's sound tracks like Undertale
+Those is arranges of Touhou Project's sound tracks like Undertale  
 東方 Project 作品のサウンドトラックの Undertale 風アレンジです。
 
 #### comming soon!
