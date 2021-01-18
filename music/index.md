@@ -38,7 +38,20 @@ Release Jan 18, 2021
 You can download a zip file organized by genre.  
 ジャンル別にまとめた zip ファイルのダウンロードができます
 
-#### comming soon!
+### Remixes
+
+- Older
+<div class="dropdown">
+  <a button class="dropbtn" href="https://github.com/alphaRomeo323/alpharomeo323.github.io/releases/download/1.01/Remixes.only-mp3.zip" download="Remixes.only-mp3.zip">Download mp3 in zip</a>
+</div><br><br>
+
+- ~Jan, 2021
+<div class="dropdown">
+  <a button class="dropbtn" href="https://github.com/alphaRomeo323/alpharomeo323.github.io/releases/download/1.01/Remixes.flac.zip" download="Remixes.flac.zip">Download flac in zip</a>
+  <div class="dropdown-content" style="width: 170px;">
+    <a href="https://github.com/alphaRomeo323/alpharomeo323.github.io/releases/download/1.01/Remixes.mp3.zip" download="Remixes.mp3.zip">Download mp3 in zip</a>
+  </div>
+</div><br><br>
 
 ## Listen and Download
 
