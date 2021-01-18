@@ -18,6 +18,21 @@ All audio files distributed in this site are free to use under [CC-BY 4.0][cc-by
 
 ここで配布している音声ファイルは、[クリエイティブコモンズ-表示 4.0 ライセンス][cc-by]の下で自由に利用することができます。
 
+## Latest Update
+
+### ヤツメ穴 Remix feat. 桜乃そら+琴葉葵
+
+Release Jan 18, 2021
+
+<audio src="/music/mp3/yatsumeana.mp3" controls></audio><br>
+
+<div class="dropdown">
+  <a button class="dropbtn" href="/music/flac/yatsumeana.flac" download="yatsumeana.flac">Download flac</a>
+  <div class="dropdown-content" style="width: 170px;">
+    <a href="/music/mp3/yatsumeana.mp3" download="yatsumeana.mp3">Download mp3</a>
+  </div>
+</div><br><br>
+
 ## Zip Download
 
 You can download a zip file organized by genre.  

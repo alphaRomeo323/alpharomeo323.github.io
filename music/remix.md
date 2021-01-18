@@ -343,5 +343,31 @@ Release Dec 16, 2020
   </div>
 </div><br><br>
 
+### Super Mario Bros. EP Remix
+
+Release Jan 15, 2021
+
+<audio src="/music/mp3/super-mario-bros.mp3" controls></audio><br>
+
+<div class="dropdown">
+  <a button class="dropbtn" href="/music/flac/super-mario-bros.flac" download="super-mario-bros.flac">Download flac</a>
+  <div class="dropdown-content" style="width: 170px;">
+    <a href="/music/mp3/super-mario-bros.mp3" download="super-mario-bros.mp3">Download mp3</a>
+  </div>
+</div><br><br>
+
+### ヤツメ穴 Remix feat. 桜乃そら+琴葉葵
+
+Release Jan 18, 2021
+
+<audio src="/music/mp3/yatsumeana.mp3" controls></audio><br>
+
+<div class="dropdown">
+  <a button class="dropbtn" href="/music/flac/yatsumeana.flac" download="yatsumeana.flac">Download flac</a>
+  <div class="dropdown-content" style="width: 170px;">
+    <a href="/music/mp3/yatsumeana.mp3" download="yatsumeana.mp3">Download mp3</a>
+  </div>
+</div><br><br>
+
 [Return Top](#)  
 [Back](../)
