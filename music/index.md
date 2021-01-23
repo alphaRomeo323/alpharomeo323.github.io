@@ -20,16 +20,16 @@ All audio files distributed in this site are free to use under [CC-BY 4.0][cc-by
 
 ## Latest Update
 
-### ヤツメ穴 Remix feat. 桜乃そら+琴葉葵
+### Akasagarbha Remix 
 
-Release Jan 18, 2021
+Release Jan 23, 2021
 
-<audio src="/music/mp3/yatsumeana.mp3" controls></audio><br>
+<audio src="/music/mp3/akasagarbha.mp3" controls></audio><br>
 
 <div class="dropdown">
-  <a button class="dropbtn" href="/music/flac/yatsumeana.flac" download="yatsumeana.flac">Download flac</a>
+  <a button class="dropbtn" href="/music/flac/akasagarbha.flac" download="akasagarbha.flac">Download flac</a>
   <div class="dropdown-content" style="width: 170px;">
-    <a href="/music/mp3/yatsumeana.mp3" download="yatsumeana.mp3">Download mp3</a>
+    <a href="/music/mp3/akasagarbha.mp3" download="akasagarbha.mp3">Download mp3</a>
   </div>
 </div><br><br>
 

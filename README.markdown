@@ -23,6 +23,7 @@ I'm Japanese, so my English isn't good. take it easy on me.
 
 ## Japanese
 
+
 "Japanese"カテゴリの付くページは日本語で読めます。
 
 ## Links
@@ -39,6 +40,12 @@ I'm Japanese, so my English isn't good. take it easy on me.
 ## Discord_Server
 
 <iframe src="https://discord.com/widget?id=488587795284230144&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
+## Comments
+
+GithubリポジトリのIssue欄で各種コメントを受け付けています。
+
+[こちら](https://github.com/alphaRomeo323/alpharomeo323.github.io/issues)
 
 ## Copyright
 
