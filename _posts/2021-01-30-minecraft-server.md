@@ -30,7 +30,6 @@ Minecraftサーバーはつけっぱなし
      Servername dynmap.hogehoge.local:80
      DocumentRoot /hogehoge
      <IfModule proxy_module>
-       ProxyRequest On
        ProxyPass / http://localhost:8123/
        ProxyPassReverse / http://localhost:8123/
     </IfModule>
@@ -61,7 +60,7 @@ Not Foundということで、開発者ツールを用いて動きを確認し�
 - certbot動作用のRwriteEngineを止めてみる→ダメ
 - certbotで作ったconfをコメントアウト→ダメ
 - マイクラサーバー再起動→ダメ
-- ApacheではなくNginxでリバースプロキシしてみる→ダメ
+- ApacheではなくNginxでリバースプロキシしてみる[^2]→ダメ
 - Dynmapのコンフィグを初期化してみる→やはりだめ
 - サーバー本体を再起動→ダメだね、だめよ、ダメなのよ
 
@@ -73,4 +72,9 @@ Not Foundということで、開発者ツールを用いて動きを確認し�
 
 なんか解決策がありましたら、Issueのほうに投げていただけると泣いて喜びます。
 
+### 2021/02/04 追記
+DynmapとPaperMCを最新版に更新して、改めて起動してみたら、きちんといけました。
+
+
 [^1]: 家のDNSの解決順がグローバル→ローカルなのでグローバルでhttpsに接続試行→失敗したのでローカルでhttpsに接続試行 という順番になった…のかな？
+[^2]: https://e-craft.io/bukkit/plugin/dynmap/
