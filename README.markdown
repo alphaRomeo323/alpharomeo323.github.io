@@ -6,7 +6,8 @@ lang: en
 menu: main
 ---
 
-**Hi visitors!!**  
+**Hi visitors!!**
+
 I'm alphaRomeo323, the author of this blog.
 
 I'm writting on this site :
@@ -22,7 +23,16 @@ You can see "English" category's posts in English.
 I'm Japanese, so my English isn't good. take it easy on me.
 
 ## Japanese
+**こんにちは!!**
 
+このサイトはα Romeo (alphaRomeo323)の5代目ブログです。
+
+主にこんなことをやってます。:
+- ゲームの進捗や攻略法について
+- プログラムなど技術的な話題
+- 音楽の配布
+- いろんな小ネタ
+- その他日記
 
 "Japanese"カテゴリの付くページは日本語で読めます。
 
@@ -33,7 +43,6 @@ I'm Japanese, so my English isn't good. take it easy on me.
 - [Youtube channel(Main)](https://www.youtube.com/channel/UCTZ2Vhf8ZIhRmquSeTN_9dw)
 - [Youtube channel(Music)](https://www.youtube.com/channel/UCYhWRiv-ISnkVPvhKmN4HRQ)
 - [Twitter (Main)](https://twitter.com/alphaRomeo323)
-- [Twitter (Sub)](https://twitter.com/kantouno323)
 - [Seesaa](https://seesaawiki.jp/takashima-city/)
 - [Niconico](https://www.nicovideo.jp/user/56692783)
 
@@ -42,6 +51,8 @@ I'm Japanese, so my English isn't good. take it easy on me.
 <iframe src="https://discord.com/widget?id=488587795284230144&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
 ## Comments
+
+
 
 GithubリポジトリのIssue欄で各種コメントを受け付けています。
 
