@@ -60,7 +60,7 @@ You can download a zip file organized by genre.
 <image src="/images/artwork/remix.png" style="width : 240px ;"/>
 Artwork illust: 蓮菜
 
-<big><strong>Too many files, see [this page!][remixes]</strong></big>
+#### <strong>Too many files, see [this page!][remixes]</strong>
 
 [cc-by]: https://creativecommons.org/licenses/by/4.0/
 [remixes]: remixes/
