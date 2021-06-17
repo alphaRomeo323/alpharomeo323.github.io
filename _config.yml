@@ -22,7 +22,6 @@ title: Alpha's Blog(5th)
 author: α Romeo
 description: >- # this means to ignore newlines until "baseurl:"
   α Romeoの5代目ブログ。ゲームや開発、動画の話、音楽配布などをやります。
-  You can watch some posts in English, Don't worry! :)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: alphaRomeo323
