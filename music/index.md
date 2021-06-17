@@ -65,21 +65,9 @@ Artwork illust: 蓮菜
 [cc-by]: https://creativecommons.org/licenses/by/4.0/
 [remixes]: remixes/
 
-### Alphatale
-
-<image src="/images/artwork/alphatale.png" style="width : 240px ;"/>
-Artwork illust: 蓮菜
-
-Those is arranges of Touhou Project's sound tracks like Undertale  
-東方 Project 作品のサウンドトラックの Undertale 風アレンジです。
-
-#### comming soon!
-
 ## Listen with Groovy!!
 
 You can listen my audio files on Discord's voicechat channels with Groovy Bot!!
-
-#### [More(English)](/english/2021/01/12/How-to-play-music-with-groovy-bot.html#how-to-listen-to-audio-file-in-my-site)
 
 #### Japanese
 
