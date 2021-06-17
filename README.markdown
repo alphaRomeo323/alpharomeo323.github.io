@@ -19,8 +19,9 @@ I'm writting on this site :
 
 Please subscribe to the RSS and watch my new contents: )
 
-You can see "English" category's posts in English.
-I'm Japanese, so my English isn't good. take it easy on me.
+
+
+I sometimes write pages in English like [this](/music). I'm Japanese, so my English isn't good. take it easy on me.
 
 ## Japanese
 **こんにちは!!**
@@ -34,7 +35,7 @@ I'm Japanese, so my English isn't good. take it easy on me.
 - いろんな小ネタ
 - その他日記
 
-"Japanese"カテゴリの付くページは日本語で読めます。
+不定期更新です。気が向いたら書いていきます。
 
 ## Links
 
