@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Arch Linuxのインストールに四苦八苦させられた話"
-date: 2021-05-06 20:40:00 +0900
+date: 2021-07-11 06:30:00 +0900
 categories: develop_and_server
 lang: ja
 ---
@@ -24,9 +24,9 @@ lang: ja
 
 半泣きですがった知り合いの某~~へんたい~~かいせつしゃさんによると
 
-> efiには任意のbootloaderを登録できるefiversから起動する方法と、デフォの場所から読む方法と2種類ある
-> efiversで登録されたefiから起動する場合は/boot/efi/boot/bootx64.efi以外の場所に配置されていても構わない
-対応したブートローダー（普通の、殆どのuefi実装）ではefiversに登録された名前がブートデバイス一覧に表示され、そこからのbootも可能
+> efiには任意のbootloaderを登録できるefiversから起動する方法と、デフォの場所から読む方法と2種類ある  
+> efiversで登録されたefiから起動する場合は/boot/efi/boot/bootx64.efi以外の場所に配置されていても構わない  
+> 対応したブートローダー（普通の、殆どのuefi実装）ではefiversに登録された名前がブートデバイス一覧に表示され、そこからのbootも可能  
 > ただし、efiversに対応していないwindowsのことしか考えていないようなお作法の悪いメーカー製uefiではデフォルトの位置(efiパーティションのefi/boot/bootx64.efi)に起動ファイルが配置されていることを期待するためefiversで普通に登録しようとしても起動しない
 
 とのこと。
