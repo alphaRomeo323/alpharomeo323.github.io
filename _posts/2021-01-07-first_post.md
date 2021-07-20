@@ -2,7 +2,7 @@
 layout: post
 title:  "ブログ移行しました。"
 date:   2021-01-07 3:45:00 +0900
-categories: Japanese
+categories: diary
 lang: ja
 ---
 

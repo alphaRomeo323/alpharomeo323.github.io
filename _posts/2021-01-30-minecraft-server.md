@@ -2,7 +2,7 @@
 layout: post
 title: "Minecraftサーバーで突然Dynmapが使い物にならなくなった話"
 date: 2021-01-30 03:56:00 +0900
-categories: Japanese
+categories: game_tips
 lang: ja
 ---
 
