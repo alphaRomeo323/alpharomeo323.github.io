@@ -53,7 +53,7 @@ ffmpeg -i "input.mkv" -c:v utvideo -c:a pcm_s16le "output.avi"
 
 ---
 
-んでたどり着いた回を2つ紹介する
+んでたどり着いた解を2つ紹介する
 
 ### [DaVinci Resolve](https://www.blackmagicdesign.com/jp/products/davinciresolve/)
 
@@ -105,6 +105,10 @@ AviUtlは32ビットで動作、対してYMM4は64ビットで動作していま
 もとがゆっくり実況を楽にするためのソフトだったので、ゆっくり実況に必要な機能(立ち絵表示・表情切り替え・フォルダ監視・テキストファイルからの字幕生成)も搭載しています。~~さすがにPSDは使えませんが~~
 
 α版から試用やバグ報告を何度かしてた身としてはこれを全力でお勧めします。
+
+2023/05/03追記: FFMpegで出力できる、ということは今話題のAV1で超軽量動画を出力できるということです。
+
+![av1_in_ymm4](https://pbs.twimg.com/media/FuJe7MpaYAEyQF5?format=png)
 
 ## 結論
 
