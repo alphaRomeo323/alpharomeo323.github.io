@@ -104,4 +104,4 @@ dist
 .tern-port
 
 # Vitepress cache
-docs/.vitepress/components/
+docs/.vitepress/cache/
