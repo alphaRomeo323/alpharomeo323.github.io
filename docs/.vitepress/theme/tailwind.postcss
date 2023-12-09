@@ -1,0 +1,58 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+/**
+* Colors
+* */
+:root {
+    --vp-c-brand: theme('colors.emerald.500');
+    --vp-c-brand-light: theme('colors.emerald.400');
+    --vp-c-brand-lighter: theme('colors.green.400');
+    --vp-c-brand-lightest: theme('colors.green.300');
+    --vp-c-brand-dark: theme('colors.emerald.600');
+    --vp-c-brand-darker: theme('colors.emerald.700');
+    --vp-c-brand-accent: theme('colors.amber.500');
+    --vp-c-bg: theme('colors.gray.200');
+    --vp-c-bg-brand: theme('colors.green.50');
+    --vp-c-divider: theme('colors.gray.400');
+}
+
+.dark {
+    --vp-c-brand: theme('colors.amber.500');
+    --vp-c-brand-light: theme('colors.amber.400');
+    --vp-c-brand-lighter: theme('colors.amber.300');
+    --vp-c-brand-lightest: theme('colors.yellow.300');
+    --vp-c-brand-dark: theme('colors.orange.500');
+    --vp-c-brand-darker: theme('colors.orange.600');
+    --vp-c-brand-accent: theme('colors.emerald.500');
+    --vp-c-bg: #2c221f;
+    --vp-c-bg-brand: theme('colors.orange.950');
+    --vp-c-divider: theme('colors.zinc.500');
+}
+
+/**
+* Original Classes ( for components )
+* */
+
+@layer base {
+	.postcss_test {
+		@apply mx-4 bg-emerald-800 text-neutral-200 rounded-lg font-bold drop-shadow py-4 text-center text-lg;
+	}
+    .page-footer .pager-link {
+        @apply block relative w-full min-w-[238px] px-[16px] pt-[11px] pb-[13px] rounded-lg bg-primary font-medium text-primary-default overflow-hidden leading-5 border border-neutral duration-300 transition hover:border-primary hover:shadow-lg;
+    }
+
+    .page-footer .prev-next {
+        @apply border-t border-neutral pt-8 flex flex-col sm:flex-row gap-x-4 justify-between items-stretch;
+    }
+    .img-overlay {
+        @apply block w-full opacity-20
+    }
+    .introduce p{
+        @apply my-1
+    }
+}
