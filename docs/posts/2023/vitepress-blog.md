@@ -6,7 +6,7 @@ outline: deep
 next: false
 prev: false
 tags:
-  - blog
+  - diary
   - nodejs
 ---
 

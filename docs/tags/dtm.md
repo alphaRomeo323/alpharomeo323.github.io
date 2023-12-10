@@ -1,6 +1,6 @@
 ---
-title: Tags/Blog
-description: ブログです。
+title: Tags/DTM
+description: DTMについてのメモ書きです。
 prev: false
 next: false
 ---
@@ -14,6 +14,6 @@ import PostCounter from "../.vitepress/components/PostCounter.vue"
 
 {{ $frontmatter.description }}
 
-## 記事一覧  <span class="text-base">(<PostCounter tag="blog" />)</span>
+## 記事一覧  <span class="text-base">(<PostCounter tag="dtm" />)</span>
 
-<TaggedPostList tag="blog" />
+<TaggedPostList tag="dtm" />

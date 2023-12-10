@@ -1,7 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
+title: 'Home'
 hero:
   name: "有葉のブログ"
   text: "これで6代目になります。"
