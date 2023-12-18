@@ -22,7 +22,7 @@ import moment from 'moment';
 let latestPosts = posts.slice(0, 8)
 </script>
 
-<div class="mx-12">
+<div class="mx-12 vp-home">
 
 ## Latest Posts
 
@@ -40,8 +40,6 @@ let latestPosts = posts.slice(0, 8)
     </div>
   </a>
 </div>
-
-<div class="h-8 vp-home"></div>
 
 ## Latest Update
 
