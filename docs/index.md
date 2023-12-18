@@ -41,7 +41,7 @@ let latestPosts = posts.slice(0, 8)
   </a>
 </div>
 
-<div class="h-8"></div>
+<div class="h-8 vp-home"></div>
 
 ## Latest Update
 

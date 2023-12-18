@@ -52,7 +52,7 @@ Github等一部サービスでは「alphaRomeo323」を名乗っております�
 
 TwitterでDMしていただければ、Discordのアカウントをお教えしますので、やり取りはそちらでお願いします。
 
-### em-mail
+### e-mail
 
 準備中
 
