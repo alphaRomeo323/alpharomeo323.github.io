@@ -19,6 +19,7 @@
     --vp-c-bg: theme('colors.gray.200');
     --vp-c-bg-brand: theme('colors.green.50');
     --vp-c-divider: theme('colors.gray.400');
+    --vp-button-alt-bg: theme('colors.gray.300');
 }
 
 .dark {
@@ -50,9 +51,28 @@
         @apply border-t border-neutral pt-8 flex flex-col sm:flex-row gap-x-4 justify-between items-stretch;
     }
     .img-overlay {
-        @apply block w-full opacity-20
+        @apply block object-cover object-center opacity-20 w-full h-full
     }
     .introduce p{
         @apply my-1
+    }
+    .vp-doc iframe{
+        @apply w-full max-w-[640px] aspect-video hover:shadow-lg transition-shadow duration-300
+    }
+
+    .VPHome h2{
+        @apply mx-12 mb-4 text-3xl font-bold text-primary-default
+    }
+    .VPHome h3{
+        @apply mx-12 my-2 text-2xl font-bold text-main
+    }
+    .VPButton.alt {
+        @apply outline hover:outline-green-500 dark:hover:outline-amber-500 outline-1 outline-gray-300
+    }
+    .VPButton{
+        @apply hover:shadow-md
+    }
+    .VPHome iframe{
+        @apply w-full max-w-[640px] aspect-video my-4 hover:shadow-lg transition-shadow duration-300 sm:justify-items-center
     }
 }

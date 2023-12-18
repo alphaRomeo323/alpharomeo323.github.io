@@ -25,7 +25,6 @@ const control = usePrevNext()
     </a>
     <div v-else class="min-w-[238px] w-full"></div>
     <a v-if="control.next?.link" class="pager-link" :href="control.next?.link">
-      <img :src="control.next?.image" class="img-overlay">
         <span class="block text-xs text-main">Next page</span>
         <span class="block text-sm" v-html="control.next?.text"></span>
     </a>
