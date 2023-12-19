@@ -45,7 +45,7 @@ tags:
 
 ~~まさかない方はいらっしゃらないと思いますが、~~ 持ってない方向けの作成方法は[こちらです](https://zenn.dev/taketakekaho/articles/5f72f4c58ab0ba)。
 
-### wlangler
+### wrangler
 
 続いて、Cloudflare Workersは、CLIで簡単に編集・確認・デプロイができる**wrangler**というアプリが提供されています。
 node.jsの環境で使えるので早速ダウンロード
