@@ -22,7 +22,7 @@ import moment from 'moment';
 let latestPosts = posts.slice(0, 8)
 </script>
 
-<div class="mx-12 vp-home">
+<div class="mx-6 md:mx-12 vp-home">
 
 ## Latest Posts
 
@@ -47,7 +47,7 @@ let latestPosts = posts.slice(0, 8)
 
 <div class="flex flex-wrap flex-row justify-center lg:border-x border-main gap-y-4">
   <HomeChannel name="VTuber Channel" description="秋神バーチャルYoutuber「柏寧有葉」として活動中
-  不定期に夜11時からゲーム・雑談・コーディングなど" path="/" src="/me.png" handle="@hakutei_alpha" class="whitespace-pre-line"/>
+  不定期に夜10時からゲーム・雑談・コーディングなど" path="/" src="/me.png" handle="@hakutei_alpha" class="whitespace-pre-line"/>
   <HomeChannel name="Music Channel" description="音楽チャンネルとして自作曲やリミックスを投稿中
   Skebでの依頼も募集中" path="/m" src="/music_icon.png" handle="@alphaRomeo323_Music" class="lg:border-l whitespace-pre-line" />
   <HomeChannel name="Yukkuri Channel" description="「回廊結晶チャンネル」としてゆっくり・ボイロ動画を投稿中
