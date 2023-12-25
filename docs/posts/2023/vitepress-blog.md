@@ -189,52 +189,30 @@ export default {
 
 <div class="mx-4 bg-orange-200 text-neutral-700 rounded-lg font-bold drop-shadow py-4 text-center text-lg">これはTailwindCSSのテストです</div>
 
-さらに、`./vitepress/theme`下のCSSをPostCSSに置き換えられるらしいので、やってみます。
+TailwindCSSは複数のclassをまとめて一つにできるのでやってみます。[^2]
 
 ::: code-group
 
-```css:line-numbers [.vuepress/theme/tailwind.postcss]
+```css:line-numbers [.vitepress/theme/style.css]
+/**
+ * Customize default theme styling by overriding CSS variables:
+ * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
+ */
+
 @tailwind base;
-
-@tailwind components;
-
+@tailwind components; 
 @tailwind utilities;
 
 /* 中略 */
 
-@layer base {
-	.postcss_test {
-		@apply mx-4 bg-emerald-800 text-neutral-200 rounded-lg font-bold drop-shadow py-4 text-center text-lg;
-	}
-}
-```
-
-```ts:line-numbers [.vuepress/theme/index.ts]
-// https://vitepress.dev/guide/custom-theme
-import { h } from 'vue'
-import type { Theme } from 'vitepress'
-import DefaultTheme from 'vitepress/theme'
-import { useData } from 'vitepress'
-import './style.css'
-import './tailwind.postcss' // [!code ++]
-
-export default {
-  extends: DefaultTheme,
-  Layout: () => {
-    return h(DefaultTheme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
-    })
-  },
-  enhanceApp({ app, router, siteData }) {
-    // ...
-  }
-} satisfies Theme
-
+.postcss_test {// [!code ++]
+	@apply mx-4 bg-emerald-800 text-neutral-200 rounded-lg font-bold drop-shadow py-4 text-center text-lg;// [!code ++]
+}// [!code ++]
 ```
 :::
 これで、複数のclassを1つのclassにまとめられてコードがめっちゃ読みやすくなりました。
 
-```md
+```html
 <div class="postcss_test">これはPostCSSのテストです</div>
 ```
 
@@ -497,7 +475,6 @@ import PostHeader from '../components/PostHeader.vue' // [!code ++]
 import PostFooter from '../components/PostFooter.vue' // [!code ++]
 import { useData } from 'vitepress'
 import './style.css'
-import './tailwind.postcss'
 
 export default {
   extends: DefaultTheme,
@@ -555,7 +532,7 @@ const date = moment(frontmatter.value.date).format('YYYY-MM-DD');
 
 ![post-header](/posts/2023/post_header.png)
 
-[^2]
+[^3]
 
 問題はフッターだよフッター。
 
@@ -674,7 +651,8 @@ SSGの干渉をほとんど受けず、自分のデザインで作りこめる�
 本当にありがとうございました！
 
 [^1]: https://github.com/vuejs/vitepress/discussions/704　に上がっていました。
-[^2]: フッターから遷移すると日付欄が変化しないのは仕様です。
+[^2]: PostCSSの機能だと思ってました(2023年12月26日修正)
+[^3]: フッターから遷移すると日付欄が変化しないのは仕様です。
 
 
 

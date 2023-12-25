@@ -7,7 +7,6 @@ import PostFooter from '../components/PostFooter.vue'
 import TagList from'../components/TagList.vue'
 import { useData } from 'vitepress'
 import './style.css'
-import './tailwind.postcss'
 
 export default {
   extends: DefaultTheme,

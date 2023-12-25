@@ -21,7 +21,7 @@ const control = usePrevNext()
   <div class="prev-next">
     <a v-if="control.prev?.link" class="pager-link mb-4 sm:mb-0" :href="control.prev?.link">
         <span class="block text-xs text-main">Previous page</span>
-        <span class="block text-sm text-primary-default" v-html="control.prev?.text"></span>
+        <span class="block text-sm" v-html="control.prev?.text"></span>
     </a>
     <div v-else class="min-w-[238px] w-full"></div>
     <a v-if="control.next?.link" class="pager-link" :href="control.next?.link">

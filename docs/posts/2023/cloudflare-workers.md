@@ -318,7 +318,8 @@ INSERT INTO Urls (Pathname, Redirect, CreatedTime) VALUES ('/', 'https://www.you
 INSERT INTO Channels (Pathname, ChannelId) VALUES ('/', 'Your ChannelID here'),　...;
 ```
 :::
-所持しているチャンネルが多ければチャンネルごとのIDも準備してあげましょう。1個だけで他にリダイレクトしないよーという場合はこれだけでOKでしょう。
+データはチャンネルの数用意しておきましょう。
+
 
 というわけでまずはローカルに生成。
 ```sh
@@ -363,6 +364,7 @@ export default {
 
 async function getRedirect(url: URL, env: any): Promise<Response> {
 	let res: Response, newUrl: string;
+	const ttl = 3600 //sec //Time to live here
 	const { results } = await env.DB.prepare(
 		"SELECT * FROM Urls WHERE Pathname = ?"
 	).bind(url.pathname)
@@ -372,7 +374,7 @@ async function getRedirect(url: URL, env: any): Promise<Response> {
 	}
 	const createdTime = new Date(results[0].CreatedTime); //データベースに記録された日時をオブジェクト化
 	const currentTime = new Date();
-	if(currentTime.valueOf() - createdTime.valueOf() < env.DB_TTL * 1000) //TTLよりも時間が経っていなければ
+	if(currentTime.valueOf() - createdTime.valueOf() < ttl * 1000) //TTLよりも時間が経っていなければ
 	{
 		newUrl = results[0].Redirect 
 		res = Response.redirect(newUrl, 302); //データベースから取り出したURLでリダイレクトレスポンスを作成

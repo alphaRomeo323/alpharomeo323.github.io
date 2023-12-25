@@ -25,15 +25,19 @@ export default {
         
       },
       backgroundColor: {
-        primary: "var(--vp-c-bg-brand)"
+        primary: "var(--vp-c-bg-brand)",
+        dark: "var(--vp-c-bg-brand-dark)"
       },
       borderColor: {
         primary: "var(--vp-c-brand)",
-        neutral: "var(--vp-c-divider)",
+        main: "var(--vp-c-divider)",
       },
       outlineColor:{
         primary: "var(--vp-c-brand)",
       },
+      transitionProperty: {
+        'home': 'box-shadow, opacity, outline-color',
+      }
     }
   }
 }
