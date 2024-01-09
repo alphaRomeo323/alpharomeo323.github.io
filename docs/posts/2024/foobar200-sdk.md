@@ -1,5 +1,5 @@
 ---
-date: 2024/1/8
+date: 2024-01-08
 title: Visual Studio 2022でfoobar2000 SDKを使う
 description: foobar2000でプラグインを作ろうと思ったけどめちゃくちゃ詰まったので備忘録です。
 next: false
@@ -18,8 +18,9 @@ tags:
 
 ## はじめに
 
-[foobar2000](https://www.foobar2000.org/)は、は Peter Pawlowski 氏が開発したオーディオプレーヤーです。
-シンプルなUIながら様々な機能を備えています。「fb2k」と略されることが多いです。
+**foobar2000**は、Peter Pawlowski氏が開発したオーディオプレーヤーです。
+シンプルなUIながら様々な機能を備えています。「fb2k」と略されることが多いです。  
+https://www.foobar2000.org/
 
 ![foobar2000](/posts/2024/foobar2000.png)
 
@@ -202,7 +203,7 @@ DECLARE_COMPONENT_VERSION(
 
 ## おわりに
 
-いじょう、foobar2000のコンポーネント作成解説でした。
+以上、foobar2000の環境構築解説でした。
 
 まだ触りの部分ですが、fb2kの開発の助けになればこれ幸い。
 
