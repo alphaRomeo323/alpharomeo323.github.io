@@ -5,7 +5,6 @@ description: foobar2000でプラグインを作ろうと思ったけどめちゃ
 next: false
 prev: false
 tags:
-  - diary
   - vtuber
   - c++
 ---
@@ -170,7 +169,7 @@ WTLをダウンロードし、中に入ってる`Include`フォルダを適当�
 
 ::: code-group
 
-```c++ [foo_testplugin.cpp]
+```c++:line-numbers [foo_testplugin.cpp]
 // foo_testplugin.cpp : コンソール アプリケーションのエントリ ポイントを定義します。
 //
 
@@ -183,7 +182,7 @@ DECLARE_COMPONENT_VERSION(
 );
 ```
 
-```c++ [stdafx.h]
+```c++:line-numbers [stdafx.h]
 #pragma once
 #include "SDK-2023-09-23/foobar2000/SDK/foobar2000.h"
 ```
