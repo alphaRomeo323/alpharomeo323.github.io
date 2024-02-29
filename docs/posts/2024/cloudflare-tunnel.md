@@ -63,7 +63,7 @@ Route Tunnelで、いよいよトンネリングする要素を追加します
 
 Subdomain、Domainにこのサービスを見せたいドメインを指定(DomainはCloudflareで管理しているドメインから選択します)。
 
-Serviceには、HTTPプロトコルを指定し、URLには建てる予定のサービスコンテナ名(今回は`dir-browser`)とポート(dir-browserはデフォルトで8080ポート)を指定します
+Serviceには、HTTPプロトコルを指定し、URLには建てる予定のサービスコンテナ名(今回は`dir-browser`)とポート(dir-browserはデフォルトで80ポート)を指定します
 
 ### docker composeを構築
 
