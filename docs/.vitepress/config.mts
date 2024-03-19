@@ -1,4 +1,5 @@
 import { defineConfig, type DefaultTheme } from 'vitepress'
+import { fileURLToPath, URL } from 'node:url'
 import footnote from 'markdown-it-footnote'
 
 // https://vitepress.dev/reference/site-config
@@ -32,6 +33,18 @@ export default defineConfig({
   rewrites: {
     'posts/(.*)/:name.md': 'posts/:name/index.md',
     'indexes/:name.md': ':name/index.md'
+  },
+  vite: {
+    resolve: {
+      alias: [
+        {
+          find: /^.*\/VPHero\.vue$/,
+          replacement: fileURLToPath(
+            new URL('./components/CustomHero.vue', import.meta.url)
+          )
+        }
+      ]
+    }
   },
   watchOptions: { poll: true }
 })

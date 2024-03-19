@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: すべての記事を見る
       link: /posts/
+  image:
+    src: /hero.webp
+    alt: Alpha & Yume's Fanart
 ---
 
 <script lang="ts" setup>
