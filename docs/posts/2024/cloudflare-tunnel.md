@@ -7,6 +7,7 @@ next: false
 prev: false
 tags:
   - diary
+copyright: CC BY-SA 3.0 
 ---
 
 Caddyでリバースプロキシするためだけに描かれたくそでか依存のcompose.ymlからおさらばしました。柏寧有葉です。

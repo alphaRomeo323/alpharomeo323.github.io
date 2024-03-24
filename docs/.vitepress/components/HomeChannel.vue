@@ -17,3 +17,9 @@ const props = defineProps(['path','name','description','src','handle'])
         <iframe :src="'https://re.hakuteialpha.com' + props.path + '?embed=true'" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </template>
+
+<style scoped>
+.vp-home a{
+    @apply text-black no-underline;
+}
+</style>

@@ -1,7 +1,7 @@
 ---
 date: 2024-02-09
 title: HoI4 BBA入りイタリア史実攻略
-outline: deep
+outline: 2
 description: 「チュートリアル国家とはいったい…うごごご！(内戦勃発)」なイタリアを攻略していきます。
 headerimage: /posts/2024/394360_20240119033349_1.png
 next: false

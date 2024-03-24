@@ -6,7 +6,7 @@ next: false
 
 # About
 
-## 柏寧有葉 ( alphaRomeo323)
+## 柏寧有葉 (alphaRomeo323)
 
 <div class="flex flex-row pt-4 gap-5 items-start introduce">
 <img src="/me.png" class="rounded-full bg-white dark:bg-neutral-700 w-32">
@@ -40,7 +40,7 @@ Github等一部サービスでは「alphaRomeo323」を名乗っております�
 - **SoundCloud**: [alphaRomeo323](https://soundcloud.com/alpha-romeo-681843655?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)
 - **Github**: [alphaRomeo323](https://github.com/alphaRomeo323)
 - **Misskey**: [@Al2O3@key.tpc3.org](https://key.tpc3.org/@Al2O3)
-- **Skeb**: [@hakutei_alpha](https://skeb.jp/@alpha8911_v)
+- **Skeb**: [@hakutei_alpha](https://skeb.jp/@hakutei_alpha)
 
 ### No longer used
 

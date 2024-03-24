@@ -1,15 +1,15 @@
 ---
 date: {{ date }}
 title: {{ title }}
-outline: deep
-description: {{ overview }}
+description: {{ description }}
+outline: 2
 next: false
 prev: false
 tags:
-  - blog
 ---
 
-{{ overview }}
+
+{{ description }}
 
 [[toc]]
 

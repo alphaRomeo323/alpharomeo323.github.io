@@ -25,13 +25,13 @@ import moment from 'moment';
 let latestPosts = posts.slice(0, 8)
 </script>
 
-<div class="mx-6 md:mx-12 vp-home">
+<div class=" vp-home">
 
 ## Latest Posts
 
 
 <div class="flex flex-wrap gap-4 flex-row justify-center">
-  <a v-for="post of latestPosts" :href="post.url" class="relative w-96 h-48 overflow-hidden">
+  <a v-for="post of latestPosts" :href="post.url" class="relative w-80 h-48 overflow-hidden">
     <img v-if="post.frontmatter.headerimage" :src="post.frontmatter.headerimage" class="img-overlay">
     <div class="absolute top-0 left-0 h-full w-full dark:text-white text-black px-4 py-2 flex flex-col gap-1 justify-center opacity-100">
       <div class="font-bold text-xl  text-center text-ellipsis line-clamp-2">{{ post.frontmatter.title }}</div>

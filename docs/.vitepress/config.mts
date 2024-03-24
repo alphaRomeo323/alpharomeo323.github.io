@@ -22,7 +22,10 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/alphaRomeo323/alpharomeo323.github.io' },
       { icon: 'youtube', link: 'https://youtube.com/@hakutei_alpha' },
       { icon: 'twitter', link: 'https://twitter.com/hakutei_alpha' },
-    ]
+    ],
+    footer: {
+      copyright: 'Copyright © 2023-present Hakutei Alpha / alphaRomeo323'
+    }
   },
   markdown: {
     config: (md) => {
@@ -46,7 +49,10 @@ export default defineConfig({
       ]
     }
   },
-  watchOptions: { poll: true }
+  lastUpdated: true,
+  sitemap: {
+    hostname: 'https://blog.hakuteialpha.com',
+  }
 })
 
 function sidebarTags(): DefaultTheme.SidebarItem[] {
