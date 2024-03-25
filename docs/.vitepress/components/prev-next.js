@@ -3,13 +3,10 @@ import { data as posts } from '../posts.data.ts'
 import { useData } from 'vitepress'
 
 export function usePrevNext() {
-
+  const { page } = useData()
   return computed(() => {
-
-    const { page } = useData()
-
-    var prev = null
-    var next = null
+    let prev = null
+    let next = null
 
     for (let i = 0; i < posts.length; ++i) {
       if (posts[i].frontmatter.title == page.value.frontmatter.title) {
@@ -22,17 +19,14 @@ export function usePrevNext() {
         break;
       }
     }
-
     return {
       prev: {
         text: prev?.frontmatter.title,
         link: prev?.url,
-        image: prev?.frontmatter.headerimage
       },
       next: {
         text: next?.frontmatter.title,
         link: next?.url,
-        image: next?.frontmatter.headerimage
       }
     }
   })

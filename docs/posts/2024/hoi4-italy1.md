@@ -7,7 +7,7 @@ headerimage: /posts/2024/394360_20240119033349_1.png
 next: false
 prev: false
 tags:
-  - hoi4
+  - game
 ---
 
 (一部画像は準備中)

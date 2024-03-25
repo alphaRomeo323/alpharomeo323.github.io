@@ -5,7 +5,7 @@ const control = usePrevNext()
 
 
 <template>
-<div class="page-footer">
+<div class="mt-16 page-footer">
 
   <div class="pb-4">
     <div class="flex flex-col items-left text-sm leading-8 font-medium text-primary-default">
