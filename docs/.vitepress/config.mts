@@ -1,10 +1,12 @@
 import { defineConfig, type DefaultTheme } from 'vitepress'
 import { fileURLToPath, URL } from 'node:url'
 import footnote from 'markdown-it-footnote'
+import { generateSidebar } from 'vitepress-sidebar';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "blog.hakuteialpha.com",
+  titleTemplate: ":title | blog.hakuteialpha.com",
   description: "プログラマ的話題を中心にいろいろ書き貯めるブログです",
   lang: 'ja-JP',
   themeConfig: {
@@ -12,10 +14,12 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About', link: '/about/' },
+      { text: "Characters", link: '/characters/'}
     ],
 
     sidebar: {
       '/': { base: '', items: sidebarTags() },
+      '/characters/': {base: '',items: characterSidebarTags()}
     },
 
     socialLinks: [
@@ -35,7 +39,7 @@ export default defineConfig({
   },
   rewrites: {
     'posts/(.*)/:name.md': 'posts/:name/index.md',
-    'indexes/:name.md': ':name/index.md'
+    'indexes/:name.md': ':name/index.md',
   },
   vite: {
     resolve: {
@@ -45,7 +49,13 @@ export default defineConfig({
           replacement: fileURLToPath(
             new URL('./components/CustomHero.vue', import.meta.url)
           )
-        }
+        },
+        {
+          find: /^.*\/VPDocFooter\.vue$/,
+          replacement: fileURLToPath(
+            new URL('./components/CustomDocFooter.vue', import.meta.url)
+          )
+        },
       ]
     }
   },
@@ -70,5 +80,73 @@ function sidebarTags(): DefaultTheme.SidebarItem[] {
       text: 'Posts',
       link: '/posts/',
     },
+    {
+      text: 'Tags',
+      link:'.',
+      base:'/tags/',
+      items: generateSidebar({
+        documentRootPath:'docs',
+        scanStartPath:'tags',
+        useTitleFromFileHeading: true,
+        hyphenToSpace: true,
+      })
+    }
   ]
 }
+
+function characterSidebarTags(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: 'Characters',
+      items: [
+        {
+          text: "ハブ",
+          link: "/characters/"
+
+        },
+        {
+          text: '世界観',
+          base: '/characters/',
+          items: [
+            {
+              text: '四世界',
+              link: 'shisekai/'
+            }
+          ]
+        },
+        {
+          text: 'よくある質問',
+          base: "/characters/",
+          link: "faq"
+        }
+      ]
+    },
+    {
+      text: 'キャラクターリスト',
+      base: '/characters/',
+      collapsed: true,
+      items: generateSidebar({
+        documentRootPath:'docs',
+        scanStartPath:'characters',
+        useTitleFromFrontmatter: true,
+        sortMenusByFrontmatterOrder: true,
+        frontmatterOrderDefaultValue: 1000,
+        excludeFiles:['faq.md'],
+        excludeFolders:['shisekai'],
+      }).concat([
+        {
+          text: "四世界シリーズ",
+          base: '/characters/shisekai/',
+          items: generateSidebar({
+            documentRootPath:'docs',
+            scanStartPath:'characters/shisekai',
+            useTitleFromFrontmatter: true,
+            sortMenusByFrontmatterOrder: true,
+            frontmatterOrderDefaultValue: 1000,
+          })
+        }
+      ])
+    },
+  ]
+}
+

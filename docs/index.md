@@ -22,7 +22,7 @@ hero:
 import { data as posts } from "./.vitepress/posts.data"
 import HomeChannel from ".vitepress/components/HomeChannel.vue"
 import moment from 'moment';
-let latestPosts = posts.slice(0, 8)
+let latestPosts = posts.slice(0, 6)
 </script>
 
 <div class=" vp-home">
@@ -30,8 +30,8 @@ let latestPosts = posts.slice(0, 8)
 ## Latest Posts
 
 
-<div class="flex flex-wrap gap-4 flex-row justify-center">
-  <a v-for="post of latestPosts" :href="post.url" class="relative w-80 h-48 overflow-hidden">
+<div class="flex flex-wrap flex-col sm:flex-row gap-4 justify-center latstposts">
+  <a v-for="post of latestPosts" :href="post.url" class="relative sm:basis-[48%] lg:basis-[32%] h-48 overflow-hidden">
     <img v-if="post.frontmatter.headerimage" :src="post.frontmatter.headerimage" class="img-overlay">
     <div class="absolute top-0 left-0 h-full w-full dark:text-white text-black px-4 py-2 flex flex-col gap-1 justify-center opacity-100">
       <div class="font-bold text-xl  text-center text-ellipsis line-clamp-2">{{ post.frontmatter.title }}</div>
@@ -48,13 +48,13 @@ let latestPosts = posts.slice(0, 8)
 
 ## Youtube Channels
 
-<div class="flex flex-wrap flex-row justify-center lg:border-x border-main gap-y-4">
+<div class="flex flex-wrap flex-row justify-center border-main gap-y-4">
   <HomeChannel name="VTuber Channel" description="秋神バーチャルYoutuber「柏寧有葉」として活動中
   不定期に夜10時からゲーム・雑談・コーディングなど" path="/" src="/me.png" handle="@hakutei_alpha" class="whitespace-pre-line"/>
   <HomeChannel name="Music Channel" description="音楽チャンネルとして自作曲やリミックスを投稿中
-  Skebでの依頼も募集中" path="/m" src="/music_icon.png" handle="@alphaRomeo323_Music" class="lg:border-l whitespace-pre-line" />
+  Skebでの依頼も募集中" path="/m" src="/music_icon.png" handle="@alphaRomeo323_Music" class="sm:border-l whitespace-pre-line" />
   <HomeChannel name="Yukkuri Channel" description="「回廊結晶チャンネル」としてゆっくり・ボイロ動画を投稿中
-  VALORANT、Terraria、Minecraftなど。投稿頻度激遅" path="/y" src="/yukkuri_icon.png" handle="@TokyoAlpha_C3" class="2xl:border-l whitespace-pre-line"/>
+  VALORANT、Terraria、Minecraftなど。投稿頻度激遅" path="/y" src="/yukkuri_icon.png" handle="@TokyoAlpha_C3" class="xl:border-l whitespace-pre-line"/>
 </div>
 
 </div>

@@ -108,15 +108,6 @@
   @apply mx-4 bg-emerald-800 text-neutral-200 rounded-lg font-bold drop-shadow py-4 text-center text-lg;
 }
 
-/* page-footer components */
-.page-footer .pager-link {
-  @apply block relative w-full min-w-[238px] px-[16px] pt-[11px] pb-[13px] rounded-lg bg-primary active:bg-dark font-medium text-primary-default dark:text-main overflow-hidden leading-5 border border-main duration-300 transition hover:border-primary hover:shadow-lg;
-}
-
-.page-footer .prev-next {
-  @apply border-t border-main pt-8 flex flex-col sm:flex-row gap-x-4 justify-between items-stretch;
-}
-
 /* Image Overlay */
 .img-overlay {
   @apply block object-cover object-center opacity-20 w-full h-full;
@@ -142,15 +133,15 @@
 }
 
 .vp-home a{
-  @apply rounded-lg bg-primary active:bg-dark shadow-lg hover:shadow-emerald-700/50 dark:hover:shadow-orange-300/50 outline outline-1 hover:outline-green-500 dark:hover:outline-amber-500 outline-transparent transition-home duration-200;
+  @apply rounded-lg bg-primary active:bg-dark  outline outline-1 hover:outline-green-500 dark:hover:outline-amber-500 outline-transparent transition-home duration-200;
 }
 
 .home-channels{
-  @apply w-full lg:w-1/2 2xl:w-1/3 h-auto border-main lg:px-4 py-4 text-main font-medium flex flex-col gap-y-2 items-center;
+  @apply w-full sm:w-1/2 xl:w-1/3 h-auto border-main sm:px-4 py-4 text-main font-medium flex flex-col gap-y-2 items-center;
 }
 
 .home-channels h3{
-  @apply block text-xl sm:text-3xl font-bold text-main text-center;
+  @apply block text-xl lg:text-3xl font-bold text-main text-center m-0;
 }
 
 .home-channels h4{

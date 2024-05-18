@@ -20,6 +20,6 @@ const props = defineProps(['path','name','description','src','handle'])
 
 <style scoped>
 .vp-home a{
-    @apply text-black no-underline;
+    @apply text-black dark:text-white no-underline;
 }
 </style>
