@@ -17,6 +17,8 @@ prev: false
 
 [![tica](https://dir.hakuteialpha.com/g/chara/キャラ紹介_ティカ.png)](/characters/shisekai/tica)
 
+[![medicine](https://dir.hakuteialpha.com/g/chara/キャラ紹介_メディスン.png)](/characters/shisekai/medicine)
+
 ## 読み物
 
 - [「四世界」シリーズの世界観](/characters/shisekai/)

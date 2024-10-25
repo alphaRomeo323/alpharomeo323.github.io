@@ -7,7 +7,7 @@ order: 5
 # Medicine Sigmoid
 
 <div class="pt-4 flex gap-2 flex-col sm:flex-row items-start introduce">
-<!--<img src="" class="rounded-md bg-white dark:bg-neutral-700 sm:max-w-64">-->
+<img src="https://dir.hakuteialpha.com/g/chara/hd/medicine.png" class="rounded-md bg-white dark:bg-neutral-700 sm:max-w-64">
 <div class="">
 
 - メディスン・シグモイド
@@ -64,6 +64,12 @@ order: 5
 > 「この関数の動き方……きれいじゃない?」
 
 > 「数の秩序を乱した……許さない……」
+
+## テーマソング
+
+### 証明魔法 ～ Mystical Mathematics
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1938116966&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/alpha-romeo-681843655" title="alphaRomeo323" target="_blank" style="color: #cccccc; text-decoration: none;">alphaRomeo323</a> · <a href="https://soundcloud.com/alpha-romeo-681843655/mystical-mathematics" title="証明魔法 ~ Mystical Mathematics" target="_blank" style="color: #cccccc; text-decoration: none;">証明魔法 ~ Mystical Mathematics</a></div>
 
 ## 作者追記
 
