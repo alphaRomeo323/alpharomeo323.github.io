@@ -6,6 +6,7 @@ next: false
 prev: false
 tags:
   - nodejs
+  - tech
 ---
 
 Discord.jsの`Client.application`は、生成時ほぼnullで生成される

@@ -6,7 +6,7 @@ next: false
 prev: false
 tags:
   - vtuber
-  - c++
+  - tech
 ---
 
 あけましておめでとうございます。本年もよろしくお願いいたします。
