@@ -2,7 +2,7 @@
 date: 2025-04-04
 title: Minecraft Server (PaperMC) のプラグインメモ
 outline: deep
-description: Caddyでリバースプロキシするためだけに描かれたくそでか依存のcompose.ymlからおさらばしました
+description: pluginsフォルダにコンフィグ生成するのやめてほしい
 next: false
 prev: false
 tags:

@@ -34,7 +34,7 @@ order: 0
 <img src="https://dir.hakuteialpha.com/g/chara/charat/org_20200417_131420.png" class="rounded-xl bg-white dark:bg-neutral-700 sm:max-w-64">
 <div>
 
-オレンジ色のぼさぼさのロングヘアー、深めのオレンジ色の瞳、向かって左にもみじの髪飾り。
+オレンジ色のぼさぼさのロングヘアー、深めのオレンジ色(黄色から深紫へのグラデーションの場合もある)の瞳、向かって左にもみじの髪飾り。
 
 髪はまれにポニテにしたりハーフアップにしたりする。
 

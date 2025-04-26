@@ -19,6 +19,8 @@ prev: false
 
 [![medicine](https://dir.hakuteialpha.com/g/chara/キャラ紹介_メディスン.png)](/characters/shisekai/medicine)
 
+[![honey](https://dir.hakuteialpha.com/g/chara/キャラ紹介_ハニー.png)](/characters/shisekai/honey)
+
 ## 読み物
 
 - [「四世界」シリーズの世界観](/characters/shisekai/)

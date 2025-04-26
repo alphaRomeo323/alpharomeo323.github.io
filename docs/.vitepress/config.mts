@@ -131,8 +131,7 @@ function characterSidebarTags(): DefaultTheme.SidebarItem[] {
         useTitleFromFrontmatter: true,
         sortMenusByFrontmatterOrder: true,
         frontmatterOrderDefaultValue: 1000,
-        excludeFiles:['faq.md'],
-        excludeFolders:['shisekai'],
+        excludePattern:['faq.md','shisekai']
       }).concat([
         {
           text: "四世界シリーズ",
