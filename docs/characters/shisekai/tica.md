@@ -36,7 +36,7 @@ order: 0
 
 王立黒十字警邏騎士団("クロ")に所属、魔界で起こる事件の解決を生業としている。
 
-氷の妖精である[氷川まどか](madoka)を使い魔にしており、剣術のほかには氷属性の魔法を基本的に使う。 
+氷の妖精である[氷川まどか](madoka)を使い魔にしており、剣術のほかには氷属性の魔法を基本的に使う。
 
 
 ## 容姿
@@ -44,8 +44,6 @@ order: 0
 <div class="pt-4 flex gap-2 flex-col-reverse sm:flex-row items-start introduce">
 <img src="https://dir.hakuteialpha.com/g/chara/charat/org_20240324_130033.png" class="rounded-xl bg-white dark:bg-neutral-700 sm:max-w-64">
 <div>
-
-いうなれば「雑草を食べない山田リョウ[^1]」
 
 青みがかった黒髪のボブ、青い瞳、青い髪留め(向かって右)
 
@@ -57,8 +55,6 @@ order: 0
 
 </div></div>
 
-
-[^1]: 「ぼっち・ざ・ろっく！」より
 
 ## 話し方
 

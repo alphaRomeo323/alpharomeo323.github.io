@@ -12,7 +12,7 @@ next: false
 <img src="/me.png" class="rounded-full bg-white dark:bg-neutral-700 w-32">
 <div>
 
-こんにちは。秋神バーチャルYoutuberの柏寧有葉です。
+こんばるふぁ！秋神バーチャルYoutuberの柏寧有葉です。
 
 Github等一部サービスでは「alphaRomeo323」を名乗っております。
 

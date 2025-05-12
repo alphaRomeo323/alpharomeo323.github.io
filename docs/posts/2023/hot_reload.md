@@ -8,6 +8,7 @@ next: false
 prev: false
 tags:
   - nodejs
+  - tech
 ---
 
 WSL上でVitePressのホットリロードが利かないからいろいろ試してみました。
