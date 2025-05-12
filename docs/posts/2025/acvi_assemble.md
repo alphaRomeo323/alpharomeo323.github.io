@@ -172,7 +172,7 @@ ALBAフレーム腕以外採用に先代Centurionから引き継いだ赤銅銀�
 ## Comet
 
 (Part14)
-![Comet](/home/worker/blog/docs/public/posts/2025/1888160_20250419172002_1.png)
+![Comet](/posts/2025/1888160_20250419172002_1.png)
 
 "Cromwellシリーズ"の機体。ナハトライアコア採用でいよいよ人命を軽視し始めた感があります。
 
