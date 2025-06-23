@@ -93,7 +93,7 @@ function sidebarTags(): DefaultTheme.SidebarItem[] {
 
 これをconfigに適用してビルドするとこんな感じ。
 
-![tags_sidebar](/posts/2024/tags_sidebar.png)
+![tags_sidebar](/posts/2024/tags_sidebar.webp)
 
 記事数表示は消えますが、まあいいでしょう。
 

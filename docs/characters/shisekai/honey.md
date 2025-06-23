@@ -7,7 +7,7 @@ order: 6
 # Honey Trappen
 
 <div class="pt-4 flex gap-2 flex-col sm:flex-row items-start introduce">
-<!--<img src="" class="rounded-md bg-white dark:bg-neutral-700 sm:max-w-64">-->
+<img src="https://dir.hakuteialpha.com/g/chara/hd/honey.webp" class="rounded-md bg-white dark:bg-neutral-700 sm:max-w-64">
 <div class="">
 
 - ハニー・トラッピン

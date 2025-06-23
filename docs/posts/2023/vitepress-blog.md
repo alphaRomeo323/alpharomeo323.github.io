@@ -268,7 +268,7 @@ export default createContentLoader('posts/**/*.md', {
 
 これを仮でpreあたりにでも吐かせてみると
 
-![test](/posts/2023/posts.data.png)
+![test](/posts/2023/posts.data.webp)
 
 おー、ちゃんと出てる。
 
@@ -296,7 +296,7 @@ import moment from 'moment';
 
 このvueコンポーネントをmdに埋め込んでやるとこんな感じになります。
 
-![post_list](/posts/2023/post_list.png)
+![post_list](/posts/2023/post_list.webp)
 
 そしてトップページは記事のタイル表示に挑戦。NodeCG仕込みのTailwindCSSさばきを見せてやるぜ！
 ::: code-group
@@ -325,7 +325,7 @@ let latestPosts = posts.slice(0, 8)
 
 **できました！**
 
-![home](/posts/2023/home.png)
+![home](/posts/2023/home.webp)
 
 なかなかイケてるホームが作れた気がします
 
@@ -404,7 +404,7 @@ import PostCounter from "../.vitepress/components/PostCounter.vue"
 
 完成品がこちら。
 
-![tags](/posts/2023/tags.png)
+![tags](/posts/2023/tags.webp)
 
 ### 個別のタグページ
 
@@ -457,7 +457,7 @@ import PostCounter from "../.vitepress/components/PostCounter.vue"
 
 もうFrontmatterだけ書き換えればOKな構造にしちゃいました。
 
-![tag_page](/posts/2023/tag_page.png)
+![tag_page](/posts/2023/tag_page.webp)
 
 ### 記事にヘッダーとフッターをつける
 
@@ -530,7 +530,7 @@ const date = moment(frontmatter.value.date).format('YYYY-MM-DD');
 
 こんな感じに表示されます。
 
-![post-header](/posts/2023/post_header.png)
+![post-header](/posts/2023/post_header.webp)
 
 [^3]
 
@@ -617,7 +617,7 @@ const control = usePrevNext()
 ```
 :::
 
-![post_footer](/posts/2023/post_footer.png)
+![post_footer](/posts/2023/post_footer.webp)
 
 **ようやく……実装できた……**
 

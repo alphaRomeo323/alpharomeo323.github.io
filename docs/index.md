@@ -50,7 +50,7 @@ let latestPosts = posts.slice(0, 6)
 
 <div class="flex flex-wrap flex-row justify-center border-main gap-y-4">
   <HomeChannel name="VTuber Channel" description="秋神バーチャルYoutuber「柏寧有葉」として活動中
-  不定期に夜10時からゲーム・雑談・コーディングなど" path="/" src="/me.png" handle="@hakutei_alpha" class="whitespace-pre-line"/>
+  不定期に夜10時からゲーム・雑談・コーディングなど" path="/" src="/me.webp" handle="@hakutei_alpha" class="whitespace-pre-line"/>
   <HomeChannel name="Music Channel" description="音楽チャンネルとして自作曲やリミックスを投稿中
   Skebでの依頼も募集中" path="/m" src="/music_icon.png" handle="@alphaRomeo323_Music" class="sm:border-l whitespace-pre-line" />
   <HomeChannel name="Yukkuri Channel" description="「回廊結晶チャンネル」としてゆっくり・ボイロ動画を投稿中

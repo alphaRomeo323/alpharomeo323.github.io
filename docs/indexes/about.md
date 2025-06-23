@@ -9,7 +9,7 @@ next: false
 ## 柏寧有葉 (alphaRomeo323)
 
 <div class="flex flex-row pt-4 gap-5 items-start introduce">
-<img src="/me.png" class="rounded-full bg-white dark:bg-neutral-700 w-32">
+<img src="/me.webp" class="rounded-full bg-white dark:bg-neutral-700 w-32">
 <div>
 
 こんばるふぁ！秋神バーチャルYoutuberの柏寧有葉です。

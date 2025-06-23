@@ -21,6 +21,8 @@ prev: false
 
 [![honey](https://dir.hakuteialpha.com/g/chara/キャラ紹介_ハニー.png)](/characters/shisekai/honey)
 
+[![eliza](https://dir.hakuteialpha.com/g/chara/キャラ紹介_エリザ.png)](/characters/shisekai/elizabeth)
+
 ## 読み物
 
 - [「四世界」シリーズの世界観](/characters/shisekai/)

@@ -48,13 +48,13 @@ Caddyでリバースプロキシするためだけに描かれたくそでか依
 
 Zero Trustのダッシュボードにはいれたと思うので、「Networks」>「Tunnels」でCloudflare Tunnelの設定画面に入ります。
 
-![zero_trust](/posts/2024/zero_trust.png)
+![zero_trust](/posts/2024/zero_trust.webp)
 
 `+Create a tunnel`をおしてトンネルの作成画面に。
 
 Select your Connectorと聞かれますが、`Cloudflared`を選択してください。
 
-![select_your_connector](/posts/2024/select_your_connector.png)
+![select_your_connector](/posts/2024/select_your_connector.webp)
 
 Name your Tunnelでは、自分がわかりやすい名前を付けておきましょう。今回は動かすサービスの名前にしておきました。
 
@@ -111,7 +111,7 @@ Cloudflareで管理しているドメインダッシュボードから「ルー�
 
 その後「レスポンス ヘッダーを変更」タブでルールを作成、検索避けをかけたいルールを設定して、レスポンスヘッダーに`X-Robots-Tag: noindex`を追加。
 
-![resopnse_header](/posts/2024/response_header.png)
+![resopnse_header](/posts/2024/response_header.webp)
 
 cURLで調べてみるとちゃんと追加されています。
 ```

@@ -293,7 +293,7 @@ void PlaybackState::on_playback_time(double p_time) //再生時間1秒ごとに�
 
 再生→一時停止→再開→停止 とやってみると…
 
-![nodecg_console](/posts/2024/nodecg_console.png)
+![nodecg_console](/posts/2024/nodecg_console.webp)
 
 **ええやん！**(ご満悦)
 
@@ -405,7 +405,7 @@ GUIDは設定を保存するために必要です。私は[このサイト](http
 
 さておき、これをコンパイルして、foobar2000の[Preference]→[Advanced]を開くと…
 
-![preferences](/posts/2024/preferences.png)
+![preferences](/posts/2024/preferences.webp)
 
 ちゃんと追加されてますね。
 
@@ -464,7 +464,7 @@ module.exports = function (nodecg) {
 
 そんなわけで…
 
-![nodecg_bgm](/posts/2024/nodecg_bgm.png)
+![nodecg_bgm](/posts/2024/nodecg_bgm.webp)
 
 <span class="text-2xl font-bold">BGMシステム、復活!</span>
 

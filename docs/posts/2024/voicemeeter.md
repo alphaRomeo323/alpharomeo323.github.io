@@ -40,7 +40,7 @@ Systemに要求を行うとは、**ドライバがWindowsに「使ってる間�
 ```bat
 powercfg -requests
 ```
-![powercfg](/posts/2024/powercfg.png)
+![powercfg](/posts/2024/powercfg.webp)
 
 ここでは音声入力ドライバとしてDiscordが`VB-Audio Voicemeeter VAIO`を、Voicemeeterが`Yamaha Steinberg USB Audio`をそれぞれ参照しているため、2つのドライバがSystemに要求を行っています。
 
@@ -55,7 +55,7 @@ powercfg -requestsoverride driver "Yamaha Steinberg USB Audio" system
 
 どのドライバからのどのような要求が無視されているか知る際は、`powercfg -requestsoverride` を単体で打ち込むことで確認できます。
 
-![requestsoverride](/posts/2024/requestsoverride.png)
+![requestsoverride](/posts/2024/requestsoverride.webp)
 
 注意点は、
 

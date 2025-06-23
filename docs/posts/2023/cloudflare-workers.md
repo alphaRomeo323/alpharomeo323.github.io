@@ -2,7 +2,7 @@
 date: 2023-12-19
 title: "Cloudflare WorkersでYoutubeの最新動画を取得してみる"
 outline: deep
-headerimage: /posts/2023/worker_and_pages.png
+headerimage: /posts/2023/worker_and_pages.webp
 description: Youtubeの最新動画を取得して返すサーバーレス関数を実装してみました。
 next: false
 prev: false
@@ -66,7 +66,7 @@ JavaScriptの場合は手動で選ぶ必要があるので`-y`を外してくだ
 
 これでカレントディレクトリ配下に`youtube-redirect`フォルダができるとともに、CloudflareダッシュボードのWorkers & Pagesにも`youtube-redirect`が用意されます。
 
-![worker_and_pages](/posts/2023/worker_and_pages.png)
+![worker_and_pages](/posts/2023/worker_and_pages.webp)
 
 以降はその`youtube-redirect`ディレクトリ下で作業を行います。
 
@@ -84,11 +84,11 @@ APIキーは[Google Cloud](https://console.cloud.google.com/)から入手する�
 
 どういうタイプのものを作るか聞かれるので"APIキー"と答えてください。
 
-![generate_api_key](/posts/2023/generate_api_key.png)
+![generate_api_key](/posts/2023/generate_api_key.webp)
 
 生成したAPIキーは、念のため`YouTube Data API v3`に用途を制限しておくとグッド。
 
-![api_keys](/posts/2023/api_keys.png)
+![api_keys](/posts/2023/api_keys.webp)
 
 
 ### APIキーを秘匿された環境変数に通す
@@ -204,7 +204,7 @@ Cloudflare Workersでは[Cache API](https://developers.cloudflare.com/workers/ru
 
 またキャッシングすることで、2回目以降より高速にアクセスできるようになります。
 
-![cache_effect](/posts/2023/cache_effect.png)
+![cache_effect](/posts/2023/cache_effect.webp)
 
 こういう人におすすめです
 - **Cloudflareで自分のドメインを管理している(必要条件)**
@@ -253,7 +253,7 @@ export default {
 
 ダッシュボードから目的のWorkersの画面に行き、"トリガー"からカスタムドメインを設定してください。
 
-![custom_domain](/posts/2023/custom_domain.png)
+![custom_domain](/posts/2023/custom_domain.webp)
 
 
 #### キャッシュ時間を延ばしたいとき

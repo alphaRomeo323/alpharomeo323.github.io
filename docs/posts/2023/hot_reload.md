@@ -3,7 +3,7 @@ date: 2023-12-08
 title: WSL2上でVitePressのホットリロードが利かないからいろいろ試してみた
 outline: deep
 description: WSL上でVitePressのホットリロードが利かないからいろいろ試してみました。
-headerimage: /posts/2023/nuxtjs_2.png
+headerimage: /posts/2023/nuxtjs_2.webp
 next: false
 prev: false
 tags:
@@ -79,11 +79,11 @@ npm run dev
 
 **お?**
 
-![nuxtjs_1](/posts/2023/nuxtjs_1.png)
+![nuxtjs_1](/posts/2023/nuxtjs_1.webp)
 
 **通ったぞ！！**
 
-![nuxtjs_2](/posts/2023/nuxtjs_2.png)
+![nuxtjs_2](/posts/2023/nuxtjs_2.webp)
 
 
 ということはVitePressの問題である説が濃厚…
@@ -103,11 +103,11 @@ npm install -D vitepress
 
 で動かしてみることに
 
-![vitepress_npm_1](/posts/2023/vitepress_npm_1.png)
+![vitepress_npm_1](/posts/2023/vitepress_npm_1.webp)
 
 **お？**
 
-![vitepress_npm_2](/posts/2023/vitepress_npm_2.png)
+![vitepress_npm_2](/posts/2023/vitepress_npm_2.webp)
 
 **ホットリロードができてる～～～！！！！**
 

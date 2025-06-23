@@ -84,7 +84,7 @@ AviUtlでは難しい**途中での解像度・フレームレートの変更**�
 
 まずはこちらをご覧ください
 
-![YMM4とAviUtlの比較](/posts/2021/ymm_aviutl.png)
+![YMM4とAviUtlの比較](/posts/2021/ymm_aviutl.webp)
 
 AviUtlは32ビットで動作、対してYMM4は64ビットで動作しています。
 

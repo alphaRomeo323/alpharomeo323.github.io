@@ -3,7 +3,7 @@ date: 2022-11-27
 title: SimutransのBGMシステムが新しくなった話
 outline: deep
 description: Simutransのver123にてBGMシステムが変更になりました。
-headerimage: /posts/2022/Screenshot_20221125_041138.png
+headerimage: /posts/2022/Screenshot_20221125_041138.webp
 next: false
 prev: false
 tags:
@@ -13,7 +13,7 @@ tags:
 
 9x年代からの骨董品、でもドハマりしちゃう、そんな鉄道会社経営ゲーム、**Simutrans**。私、α Romeoも受験期の合間を縫って遊んでいました(何やってんだ)
 
-![simutrans](/posts/2022/Screenshot_20221125_041138.png)
+![simutrans](/posts/2022/Screenshot_20221125_041138.webp)
 
 軽量・マルチプラットフォームなゲームですが、ver123にて**BGMシステムが変更になりました**
 
@@ -38,7 +38,7 @@ tags:
 
 とりあえず、手っ取り早くBGM鳴らしたいという方はSteam版をインストールしてみてください。
 
-![BGM Setting](/posts/2022/Screenshot_20221125_034646.png)
+![BGM Setting](/posts/2022/Screenshot_20221125_034646.webp)
 
 ちなみに私のお勧めは、[SGM Soundfont](https://musical-artifacts.com/artifacts/855)です。
 
@@ -50,7 +50,7 @@ MIDIの再生には、`libSDL2_mixer`が必要となります。
 
 例えば、[ArchLinuxの公式リポジトリ版](https://www.archlinux.jp/packages/extra/x86_64/simutrans/)は、`libSDL2_mixer`を抜いてビルドされています。
 
-![arch_simutrans](/posts/2022/Screenshot_20221125_035207.png)
+![arch_simutrans](/posts/2022/Screenshot_20221125_035207.webp)
 
 ご自身でビルドして遊ぶ際は、お気を付けください。
 

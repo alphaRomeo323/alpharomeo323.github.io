@@ -21,7 +21,7 @@ tags:
 シンプルなUIながら様々な機能を備えています。「fb2k」と略されることが多いです。  
 https://www.foobar2000.org/
 
-![foobar2000](/posts/2024/foobar2000.png)
+![foobar2000](/posts/2024/foobar2000.webp)
 
 自分で好きな外観にアレンジするのはもちろん、ASIOやDSP対応も外部コンポーネントで簡単にできてしまうのがこのプレーヤー。
 
@@ -109,11 +109,11 @@ SDK-2023-09-23\pfc\pfc.vcxproj
 
 以下のような画面が出てくるので、「OK」を選択してアップグレードします。
 
-![re-target](/posts/2024/re-target.png)
+![re-target](/posts/2024/re-target.webp)
 
 最後に、`foo_testplugin`の中にある[参照]を右クリックし。[参照の追加]で先ほど追加したプロジェクトすべてにチェックを入れておきます。
 
-![reference](/posts/2024/reference.png)
+![reference](/posts/2024/reference.webp)
 
 ## プロジェクト設定
 
@@ -192,13 +192,13 @@ DECLARE_COMPONENT_VERSION(
 
 うまくいったときのビルドメッセージがこちら
 
-![build-msg](/posts/2024/build_msg.png)
+![build-msg](/posts/2024/build_msg.webp)
 
 生成された`foo_testplugin.dll`は、ソリューションフォルダの`x64\Debug`(構成がDebugの場合)にありますので、これをfoobar2000のcomponentsフォルダに入れて、きちんと動くか確認しましょう
 
 きちんと動いていたらこのようにプラグインが追加されています。
 
-![components](/posts/2024/components.png)
+![components](/posts/2024/components.webp)
 
 ## おわりに
 
