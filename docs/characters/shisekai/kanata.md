@@ -1,7 +1,7 @@
 ---
 title: 見鳥かなた
 titleTemplate: "Characters | blog.hakuteialpha.com"
-order: 12
+order: 13
 ---
 
 # 見鳥かなた

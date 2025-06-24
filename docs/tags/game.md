@@ -1,6 +1,6 @@
 ---
 title: Tags/Game
-description: その他、このサイトにタグを作ってないゲーム達です。
+description: ゲーム達の話題です。基本的には配信で触れたゲームの話題とか。
 ---
 
 <script lang="ts" setup>

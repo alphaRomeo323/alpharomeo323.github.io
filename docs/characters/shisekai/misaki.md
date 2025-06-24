@@ -1,7 +1,7 @@
 ---
 title: 弓永美咲
 titleTemplate: "Characters | blog.hakuteialpha.com"
-order: 11
+order: 12
 ---
 
 # 弓永美咲

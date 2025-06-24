@@ -1,6 +1,6 @@
 ---
 title: メアリ・サンセスティア
-order: 9
+order: 10
 titleTemplate: "Characters | blog.hakuteialpha.com"
 ---
 

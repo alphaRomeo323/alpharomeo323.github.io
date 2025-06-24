@@ -1,7 +1,7 @@
 ---
 title: "エリザベス・ロックフォア"
 titleTemplate : "Characters | blog.hakuteialpha.com"
-order: 10
+order: 11
 ---
 
 
