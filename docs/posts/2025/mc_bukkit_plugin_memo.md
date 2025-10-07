@@ -7,6 +7,7 @@ next: false
 prev: false
 tags:
   - tech
+  - game
 ---
 
 PaperMCサーバーを運用するにあたってシンボリックリンクを貼りまくるため、どこにファイルがあるかをメモらなきゃいけないので
