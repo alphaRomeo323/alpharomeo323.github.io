@@ -1,8 +1,8 @@
 ---
 date: 2025-10-08
-title: 【GTNH】LogiPipe VS ProRed: Transpotation
+title: "【GTNH】LogiPipe VS ProRed: Transpotation"
 outline: deep
-description: GTNH序盤にProject Red: TranspotationとLogistics Pipesを両方扱ってみた感想です。
+description: "GTNH序盤にProject Red: TranspotationとLogistics Pipesを両方扱ってみた感想です。"
 next: false
 prev: false
 tags:
