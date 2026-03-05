@@ -54,7 +54,7 @@ let latestPosts = posts.slice(0, 6)
   <HomeChannel name="Music Channel" description="音楽チャンネルとして自作曲やリミックスを投稿中
   Skebでの依頼も募集中" path="/m" src="/music_icon.png" handle="@alphaRomeo323_Music" class="sm:border-l whitespace-pre-line" />
   <HomeChannel name="Yukkuri Channel" description="「回廊結晶チャンネル」としてゆっくり・ボイロ動画を投稿中
-  VALORANT、Terraria、Minecraftなど。投稿頻度激遅" path="/y" src="/yukkuri_icon.png" handle="@TokyoAlpha_C3" class="xl:border-l whitespace-pre-line"/>
+  VALORANT、Terraria、Minecraftなど。" path="/y" src="/yukkuri_icon.png" handle="@TokyoAlpha_C3" class="xl:border-l whitespace-pre-line"/>
 </div>
 
 </div>

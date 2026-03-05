@@ -2,7 +2,7 @@
 date: 2025-10-08
 title: "【GTNH】LogiPipe VS ProRed: Transpotation"
 outline: deep
-description: "GTNH序盤にProject Red: TranspotationとLogistics Pipesを両方扱ってみた感想です。"
+description: "GTNH序盤にProject Red: TranspotationとLogistics Pipesを両方扱ってみた感想です"
 next: false
 prev: false
 tags:
@@ -40,7 +40,7 @@ GTNH序盤にProject Red: TranspotationとLogistics Pipesを両方扱ってみ�
 - タイプフィルタ分類、鉱石辞書分類、Mod分類などに対応する。一方ファジーフィルターはアップグレードによる後付け
 - 電力の供給が必要。ただし消費電力は控えめ。
 
-→拠点の中央倉庫で分類整理などの用途に向く。
+→拠点の中央倉庫で分類整理などの用途に向く。  
 →AE2のOreDict FilterがIVまで本気を出せないので補助として使える。
 
 ## 結論
