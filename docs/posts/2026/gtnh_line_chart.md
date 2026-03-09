@@ -21,6 +21,8 @@ tags:
 P.S. プラチナラインだけは[公式Wiki見てください](https://wiki.gtnewhorizons.com/wiki/Platinum_Line)
 (ほかの人が構築→のちにMCRのオンデマンドに丸投げ)
 
+<span class="text-sm">P.P.S. 3/7に一部チャート差し替え、画像追加、文面の変更などを行いました</span>
+
 ## 目次
 
 [[toc]]
@@ -38,7 +40,7 @@ P.S. プラチナラインだけは[公式Wiki見てください](https://wiki.g
   - 例: "Nichrome Coil" を装備した "HV" の "Electric Blast Furnace" で、 "2番" に設定されたProgramed Circuitと一緒に加工する際は **"EBF(HV/Nichrome/2)"** と表記する
 - 紫: **NEIで追えない加工**
   - Ender Woodを使用したCobblestone→Endstoneの変換などがこれにあたる
-- 青もしくは黒矢印: **処理の順番**
+- 青矢印もしくは黒矢印: **処理の順番**
   - 機械へ投入する原材料、もしくは機械から出てくる生成物
 - 赤矢印: **ループ _ただし投入量と生成量は一致しない_** 
   - 矢印の先か黄四角なら減少、赤四角なら増加
@@ -68,7 +70,7 @@ P.S. プラチナラインだけは[公式Wiki見てください](https://wiki.g
 - 以下はWikiに載っていない機械の略記
   - ExxonMobil Chemical Plant→**ECP**
 
-## シリコン純化ライン (シーメンス法)
+## シリコン純化ライン (MVクエスト右ルート)
 
 - **原材料**: Raw Silicon Dust
 - **目的生成物**: Silicon Solar Grade (Poly Si) Dust
@@ -79,7 +81,8 @@ P.S. プラチナラインだけは[公式Wiki見てください](https://wiki.g
 
 ![シリコン純化ライン(MV)](/posts/2026/gtnh_charts/silicon_line_2.webp)
 
-ポリシリコンを放置で生産するライン。LV機械でサクッと作れる
+ポリシリコンを放置で生産するライン。現実世界でシーメンス法と呼ばれている  
+LV機械でサクッと作れる代わり、**LCRで構築することができない**点に注意
 
 Chemical Reactorを2台並べ、搬出面からの搬入を両方許可し、搬出面が互いに向かい合うよう設定  
 Trichlorosilaneのほうは液体・アイテム両方を、Silicon Solar Gradeを作るほうは液体のみを自動搬出に設定し、セルの返却・成果物の取り出しはProRed: TrasptationのExtractor/Respnderで行おう
@@ -88,25 +91,24 @@ Trichlorosilaneのほうは液体・アイテム両方を、Silicon Solar Grade�
 
 Conduitが開放され次第Conduitに置き換え、AE2が開放され次第倉庫搬入出を整えよう。これ1ラインで十分ポリシリコンを賄える(RTAしなければ)
 
-余談だが、**このラインのみLCRで構築することができない**。LCRでやろうとすると異なるクロロシランが製造されるためである。
-
 ## チタンライン (EV突入前・後両対応)
 
-- **原材料**: Ilmenite Dust (HV), Purified Ilmenite Ore(EV)
+- **原材料**: Ilmenite Dust (HV), Purified Ilmenite Ore(EV), Rutile Dust
 - **目的生成物**: Hot Titanium Ingot
 - **必要電圧時代**: HV, EV
-- **律速位置**: RutileからTitanium Tetrachlorideを作るLCR
+- **律速位置**: RutileからTitanium Tetrachlorideを作るLCR(EVラインの場合)
 
 ![チタンライン処理フロー](/posts/2026/gtnh_charts/チタンライン処理フロー.webp)
 
 ![チタンライン(HV)](/posts/2026/gtnh_charts/titanium_line.webp)
 
-AE2はとても便利だが、とにかくチタンが必要となりその準備が大変。それを解消してくれるのがこのラインである。
+AE2はとても便利だが、とにかくチタンが必要となりその準備が大変。それを解消してくれるのがこのラインである  
+月に行く前にある程度構築しておける点がウリ。帰ってきたら速攻チタン製造に手を出せる
 
 生産速度は毎分3個。序盤のAE2拡張であれば十分に耐えきれる  
 電力消費が気になるようだったらコイルをTPV Alloyに切り替えて完全OCしてあげよう  
 
-EVへ突入し次第最優先でChemical Bathを整え、より速度と効率のいいRutileの生産方法に切り替えよう
+EVへ突入し次第最優先でChemical Bathを整え、より速度と効率のいいRutileの生産方法に切り替えよう  
 電圧の異なる2つの機械が隣接して配置されるため、電圧の取り違えには十分注意
 
 ## タングステンライン
@@ -176,7 +178,7 @@ Oxalic Acid(シュウ酸)はここと簡易サマリウムラインでしか使�
 
 Cerium-Rich MixtureからもCerium Chlorideを作ることができる。モナラインをスキップしている方はそちらも行おう。
 
-## モナザイトライン
+## モナザイトライン [Monaline]
 
 - **原材料**: Crushed Monazite Ore
 - **目的生成物**: Samaric Residue Dust, Europium (III) Oxide Dust, Hf-Zr Blend Dust, Cerium Dioxide Dust
@@ -197,7 +199,7 @@ Cerium-Rich MixtureからもCerium Chlorideを作ることができる。モナ�
 Nitric Leached Monazite Mixtureを作る工程で Cerium-Rich Mixtureを混ぜ込むことで以降のラインの生産量を2倍にできる。
 またSaturated Monazite Rare Earth Dustを作る工程でSamarium Ore Conc.を混ぜ込むことで以降のラインの生産量を3倍にできる。
 
-## バストネサイトライン
+## バストネサイトライン [Bastline]
 
 - **原材料**: Crushed Bastnasite Ore
 - **目的生成物**: Samaric Residue Dust, Holmium Dust, Terbium Nitrate Dust, Neodymium Rare Earth Concentrate Dust, Cerium Dioxide Dust
@@ -244,7 +246,7 @@ Enriched NqラインではSulfuric Acidが消えてなくなる。正攻法だ�
 
 ## ネザライトライン
 
-- **原材料**: Nethnerrack, Grade1/2 Water, Lava
+- **原材料**: Nethnerrack, Grade1or2 Water, Lava
 - **目的生成物**: Intensity Bonded Netherite Nanoperticles
 - **必要電圧時代**: LuV
 - **律速位置**: NetherrackのFlotation, Netherite Scrap Seedの製造
@@ -255,11 +257,11 @@ Enriched NqラインではSulfuric Acidが消えてなくなる。正攻法だ�
 ![ネザライトライン](/posts/2026/gtnh_charts/netherite_line.webp)
 
 GTNH2.8でバニラ要素のバックポートが行われたことによって追加された面倒なライン  
-進行にFlotationが必須となっており、巡り巡ってArcaniteのパッシブ生産が推奨される
+進行にFlotationとWaterlineが必須となっており、巡り巡ってArcaniteのパッシブ生産が推奨される
 
-…が、最序盤に待ち構えるNether Semifluidの蒸留がとにかくおいしすぎるとしても有名
+…が、最序盤に待ち構えるNether Semifluidの蒸留における副産物がとにかくおいしい
 
-- 金属精錬を高速化する**Neon**
+- 金属精錬を高速化する**Neon** <span class="text-sm">(2.8で不活性ガス系と貴ガス系が統一され出番が増えた)</span>
 - Nitric Acidの原料である**Nitrogen Dioxide**
 - 酸素不要でSulfuric Acidを作れる**Sulfur Trioxide**
 - ロケット燃料となる過酸化水素のループ(アントラキノン法)に必要な**Anthracene**
@@ -273,16 +275,16 @@ Netherite ScrapのループはUVに突入すると直接Brittle Netherite Scrap�
 
 蜂を進めているならIntensity Bonded Netherite Nanoperticlesの焼成にNetherite Combを混ぜ込んで収率を増やそう
 
-## プリズマライン(PrismaLine)
+## プリズマライン [PrismaLine]
 
 - **原材料**: Prismarine Shard, Enriched Naquadah Dust
 - **目的生成物**: Molten Prismatic Naquadah
 - **必要電圧時代**: ZPM
 - **律速位置**: なし？(強いて言うならBoron Plasma)
 
-![プリズマライン酸ライン処理フロー](/posts/2026/gtnh_charts/プリズマリン酸ライン処理フロー.webp)
+![プリズマリン酸ライン処理フロー](/posts/2026/gtnh_charts/プリズマリン酸ライン処理フロー.webp)
 
-![プリズマライン酸ライン](/posts/2026/gtnh_charts/prismaline.webp)
+![プリズマリン酸ライン](/posts/2026/gtnh_charts/prismaline.webp)
 
 PrismarineではなくPrismaline。こちらもバニラ要素のバックポートが行われたことによって追加された  
 序盤に2重の開ループ構造が現れるクソキモライン
@@ -297,13 +299,14 @@ Botaniaを進めてない方はAlgaeで死のう
 ストロンチウムはこのラインを回しているうちに増殖する。最初の数個はRare Earth (III)から集める必要があることだけ注意  
 ~~プリズマリンの素材にストロンチウムが含まれているのであろうか~~
 
-基本的に冷却はMVFが強いが、Prismatic AcidはOCの都合でCryogenic Freezerのほうが強くなる
+基本的に冷却はMVFが強いが、この規模であればCryogenic Freezerのほうが強くなる  
+もっと高速化するときはMVFに切り替えよう
 
 ## Nq Fuel Mk2ライン
 
 - **原材料**: Naquadria Dust, Fluoroantimonic Acid, Nether Star Dust, Fluxed Electrum Dust
 - **目的生成物**: Naquadah Based Liquid Fuel MkII, Extremely Unstable Naquadah Dust, Naquadah Asphalt, Xenon, Radon
-- **必要電圧時代**: ZPM
+- **必要電圧時代**: ZPM~UV
 - **律速位置**: Fusion Reactor Mk-IIとMCR
 
 ![ナクアダ燃料ライン処理フロー](/posts/2026/gtnh_charts/ナクアダ燃料ライン処理フロー.webp)
