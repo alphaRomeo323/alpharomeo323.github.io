@@ -21,7 +21,7 @@ tags:
 P.S. プラチナラインだけは[公式Wiki見てください](https://wiki.gtnewhorizons.com/wiki/Platinum_Line)
 (ほかの人が構築→のちにMCRのオンデマンドに丸投げ)
 
-<span class="text-sm">P.P.S. 3/7に一部チャート差し替え、画像追加、文面の変更などを行いました</span>
+<span class="text-sm">P.P.S. 3/9に一部チャート差し替え、画像追加、文面の変更などを行いました</span>
 
 ## 目次
 
@@ -209,6 +209,7 @@ Nitric Leached Monazite Mixtureを作る工程で Cerium-Rich Mixtureを混ぜ�
 ![バストネサイトライン処理フロー](/posts/2026/gtnh_charts/バストネサイトライン処理フロー.webp)
 
 ![バストネサイトライン](/posts/2026/gtnh_charts/bastline.webp)
+<span class="text-sm">画像右下にセリウムラインも併設している</span>
 
 **こっちは建設した**。理由としてはホルミウムやテルビウムがこのルートでしか手に入らないため  
 またモナザイトと違いバストネサイトはFlotationができないため
@@ -252,7 +253,6 @@ Enriched NqラインではSulfuric Acidが消えてなくなる。正攻法だ�
 - **律速位置**: NetherrackのFlotation, Netherite Scrap Seedの製造
 
 ![ネザライトライン処理フロー](/posts/2026/gtnh_charts/ネザライトライン処理フロー.webp)
-
 
 ![ネザライトライン](/posts/2026/gtnh_charts/netherite_line.webp)
 
@@ -310,6 +310,8 @@ Botaniaを進めてない方はAlgaeで死のう
 - **律速位置**: Fusion Reactor Mk-IIとMCR
 
 ![ナクアダ燃料ライン処理フロー](/posts/2026/gtnh_charts/ナクアダ燃料ライン処理フロー.webp)
+
+![ナクアダ燃料ライン](/posts/2026/gtnh_charts/nq_fuel_line.webp)
 
 100MEU/tと電力には困らなくなる発電量を手に入れるためのライン  
 Nq GasからXenon, Nq FuelからOganesonやAmericiumが取れるため、Fusion Reactor Mk-IIを作ったら真っ先に進めておきたい
