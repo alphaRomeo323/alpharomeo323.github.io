@@ -8,9 +8,7 @@ order: 7
 # 北風半子
 
 <div class="pt-4 flex gap-2 flex-col sm:flex-row items-start introduce">
-<!--
-<img src="" class="rounded-md bg-white dark:bg-neutral-700 sm:max-w-64">
--->
+<img src="https://dir.hakuteialpha.com/g/chara/hd/hanko.webp" class="rounded-md bg-white dark:bg-neutral-700 sm:max-w-64">
 <div class="">
 
 - きたかぜ はんこ
@@ -20,7 +18,7 @@ order: 7
 - 推定最大魔力: 19.2Mmth
 - 個性: 「風向きを操る」(遺伝個性) / 「体感を調節する」(突発個性)
 - 誕生日: 5月2日
-  
+
 </div></div>
 
 ## 設定

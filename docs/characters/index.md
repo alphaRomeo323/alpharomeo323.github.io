@@ -21,6 +21,8 @@ prev: false
 
 [![honey](https://dir.hakuteialpha.com/g/chara/キャラ紹介_ハニー.png)](/characters/shisekai/honey)
 
+[![hanko](https://dir.hakuteialpha.com/g/chara/キャラ紹介_北風半子.png)](/characters/shisekai/hanko)
+
 [![eliza](https://dir.hakuteialpha.com/g/chara/キャラ紹介_エリザ.png)](/characters/shisekai/elizabeth)
 
 ## 読み物
