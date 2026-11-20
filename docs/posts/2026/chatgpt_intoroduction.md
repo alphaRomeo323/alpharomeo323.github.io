@@ -7,6 +7,7 @@ next: false
 prev: false
 tags:
   - tech
+  - diary
 ---
 
 お久しぶりです。
