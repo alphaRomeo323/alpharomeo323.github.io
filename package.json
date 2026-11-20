@@ -15,5 +15,8 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
-  "type": "module"
+  "type": "module",
+  "allowScripts": {
+    "esbuild@0.21.5": true
+  }
 }

@@ -23,6 +23,8 @@ P.S. プラチナラインだけは[公式Wiki見てください](https://wiki.g
 
 <span class="text-sm">P.P.S. 3/9に一部チャート差し替え、画像追加、文面の変更などを行いました</span>
 
+<span class="text-sm">P.P.P.S. GTNHバージョンは2.8.x(チタンラインまでは2.7.x)です。2.9.x以降では構築できないラインもあるかもしれません</span>
+
 ## 目次
 
 [[toc]]
@@ -176,28 +178,30 @@ Uraninite, Thorianiteも同じラインで処理できるが、後者はYttrium 
 モナライン・バストライン・簡易サマリウムラインで共通して出てくるCerium DioxideをCerium Dustまで加工するライン  
 Oxalic Acid(シュウ酸)はここと簡易サマリウムラインでしか使わないため、セリウムラインに併設でもOK
 
-Cerium-Rich MixtureからもCerium Chlorideを作ることができる。モナラインをスキップしている方はそちらも行おう。
+Cerium-Rich MixtureからもCerium Chlorideを作ることができる。モナラインをスキップしている方はそちらも行おう
 
 ## モナザイトライン [Monaline]
 
 - **原材料**: Crushed Monazite Ore
 - **目的生成物**: Samaric Residue Dust, Europium (III) Oxide Dust, Hf-Zr Blend Dust, Cerium Dioxide Dust
 - **必要電圧時代**: IV
-- **律速位置**: 不明
+- **律速位置**: 未検証
 
 ![モナザイトライン処理フロー](/posts/2026/gtnh_charts/モナザイトライン処理フロー.webp)
 
-クエストでどでかく掲載されているが、**モナラインはスキップ可能**である
+クエストでどでかく掲載されているが、**モナラインは代替ルートが多い**
 
+- Monaziteそれ自体→Flotationという処理の選択肢もある
 - Zr/Hf→イルメナイトのSiftingで手に入る。このころにはルチルが直接手に入るのでチタンライン序盤を崩してこっちに割り当てよう
 - Th/U→ピッチブレンドから一緒に出てくる
 - Cerium/Samarium→バストラインや簡易Smラインからも出てくる
 - Europium→融合炉解放まで還元できない、Floatationルートでは直接出てくる
 
-なので自分の環境ではチャートだけまとめて建設していない。モナザイト処理はFlotationやQFTができるようになるまで待つことも選択肢に入る。
+UHVに入るとここから製造するHafniaが要求されるようになる。そのためSifterまでは構築してあげよう
+完全処理は不要。QFTができるようになったらそちらに乗り換えればよい
 
-Nitric Leached Monazite Mixtureを作る工程で Cerium-Rich Mixtureを混ぜ込むことで以降のラインの生産量を2倍にできる。
-またSaturated Monazite Rare Earth Dustを作る工程でSamarium Ore Conc.を混ぜ込むことで以降のラインの生産量を3倍にできる。
+Nitric Leached Monazite Mixtureを作る工程で Cerium-Rich Mixtureを混ぜ込むことで以降のラインの生産量を2倍にできる
+またSaturated Monazite Rare Earth Dustを作る工程でSamarium Ore Conc.を混ぜ込むことで以降のラインの生産量を3倍にできる
 
 ## バストネサイトライン [Bastline]
 
@@ -211,8 +215,10 @@ Nitric Leached Monazite Mixtureを作る工程で Cerium-Rich Mixtureを混ぜ�
 ![バストネサイトライン](/posts/2026/gtnh_charts/bastline.webp)
 <span class="text-sm">画像右下にセリウムラインも併設している</span>
 
-**こっちは建設した**。理由としてはホルミウムやテルビウムがこのルートでしか手に入らないため  
+**こっちは建設した**。理由としてはホルミウムがこのルートでしか手に入らないため  
 またモナザイトと違いバストネサイトはFlotationができないため
+
+しかしながら、セリウム以外を諦める代わりにフッ素の供給源としてバストネサイトを利用するやり方もあるので、どっちを建てるかはお好みで。
 
 Cerium Dioxideを取り出すI. Centrifugeが詰まるため、詰まりを検知したら前処理LCRの片側止めるといったRS制御を導入するとよい。
 
